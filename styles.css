@@ -1,0 +1,48 @@
+body {
+    font-family: "Asimovian", sans-serif;
+    margin: 0;
+    background-color: rgb(43, 44, 50);
+}
+
+h1 { 
+    margin:0%;
+}
+
+#count-el{
+    font-size: 50px;
+}
+
+#save-el {
+    font-size: 25px;
+
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    display: block;
+    width: 120px;
+    margin: 10px auto;
+    font-family: inherit;
+    font-size: larger;
+    cursor: pointer;
+}
+
+button:active {
+    border: 3px solid darkred;
+}
+
+.main-container {
+    margin: 10vh auto;
+    width: 30%;
+    height: 80vh;
+    border: 5px solid black;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
